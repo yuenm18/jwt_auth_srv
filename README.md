@@ -1,6 +1,6 @@
-# JWT REST Service Example
+# JWT Authentication Service Example
 
-This REST Service allows users to create accounts, storing their passwords hashed in a database.  Once successfully logged in, users are issued a [JWT](https://jwt.io/).  Users can also delete their accounts.
+This Authentication Service allows users to create accounts, storing their passwords hashed in a database.  Once successfully logged in, users are issued a [JWT](https://jwt.io/).  Users can also delete their accounts.
 
 Note: User's passwords are salted and hashed before being inserted into the database.
 
@@ -11,9 +11,9 @@ Note: User's passwords are salted and hashed before being inserted into the data
 * Tomcat server 8.5
 * MySQL Database
 
-## REST Service
+## Authentication Service
 
-**REST Endpoint:** `/jwt_auth_srv/rest/`
+**Authentication Endpoint:** `/jwt_auth_srv/rest/`
 
 **Swagger.json:** `/jwt_auth_srv/rest/swagger.json`
 
